@@ -1,3 +1,7 @@
+mod client_sync;
+mod client_async;
+mod eod_data;
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
